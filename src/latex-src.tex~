@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
 
 \begin{document}
 \title{Título del artículo}
@@ -45,10 +46,13 @@ como signo de puntuación --- como en esta oración.
 \bigskip
 \begin{tabular}{|l|c|c|}
  \hline
-  Nombre & Edad & Nota
+  Nombre & Edad & Nota\\ \hline
+  Pepe & 24 & 10 \\ \hline
+  Juan & 19 & 8 \\ \hline
+  Luis & 21 & 9 \\ \hline
 \end{tabular}
 
-
+\includegraphics[wi]{×}
 
 \begin{thebibliography}{00}
   \bibitem{Lam:86}
